@@ -23,7 +23,7 @@ I need a quick tool to assemble short sequences (length<30) into repeat unit. An
 ### Usage
 
 `perl Ran_Kmer_assembler.pl SEQ_FILE.fa OVERLAP_SIZE`
-Only two parameters are needed. `SEQ_FILE.fa` is a fasta format sequence file, and `OVERLAP_SIZE` is the length to allow a merge. And the overlap_size should be no more than the length of input sequences.
+Only two parameters are needed. `SEQ_FILE.fa` is a fasta format sequence file, and `OVERLAP_SIZE` is the length to allow to merge. And the overlap_size should be no more than the length of input sequences.
 
 ### Output
 Each round will be in its own folder. The assembler will stop when there is no sequence to merge. So the results from the last round (n) should be the same as the n-1 round.
