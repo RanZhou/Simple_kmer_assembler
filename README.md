@@ -33,6 +33,6 @@ Each round will be in its own folder. The assembler will stop when there is no s
 All you need is Perl installed in your OS
 
 ### Known issues and missing parts
-#### There is no extension check outside the kmer overlap, which means this assembler does not support calling alleles and error could occur due to unexpected overlaps.
+#### There is no requirement for regions outside the kmer overlap, which means this assembler does not support calling alleles and error could occur due to unexpected overlaps.
 #### There is no validation or systematic check on the error rate.
 #### Since the inputs are hashed inorderly, the results would be different each time. I might update the statistic calculation upon further request.
